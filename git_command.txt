@@ -7,3 +7,10 @@ $ git add file2.txt file3.txt
 $ git commit -m "add 3 files"
 $ git status
 $ git diff file1.txt
+$ git reset --hard head^
+$ git reset --hard head^^
+$ git reset --hard head~100
+$ git reset --hard (commit id) //可以从reflog中查到
+$ git log
+$ git reflog
+
