@@ -5,3 +5,5 @@ $ git init //将当前目录初始化成为git可管理的仓库
 $ git add file1.txt
 $ git add file2.txt file3.txt
 $ git commit -m "add 3 files"
+$ git status
+$ git diff file1.txt
