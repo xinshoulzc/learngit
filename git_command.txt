@@ -1,0 +1,4 @@
+$ mkdir learngit
+$ cd learngit
+$ pwd
+$ git init //将当前目录初始化成为git可管理的仓库
