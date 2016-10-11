@@ -14,3 +14,9 @@ $ git reset --hard (commit id) //可以从reflog中查到
 $ git log
 $ git reflog
 
+// stage area 暂存区. 
+// git add 就是将文件加入stage area
+// git commit 是将文件提交至默认 branch master
+// git管理的是修改并不是文件.
+
+$ git checkout --file.txt 
