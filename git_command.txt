@@ -19,4 +19,5 @@ $ git reflog
 // git commit 是将文件提交至默认 branch master
 // git管理的是修改并不是文件.
 
-$ git checkout --file.txt 
+$ git checkout --file.txt
+$ git reset head file.txt // unstage the modified 
