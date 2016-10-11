@@ -23,5 +23,6 @@ $ git checkout -- file.txt
 $ git reset head file.txt // unstage the modified 
 
 $ rm file.txt // delete file.txt, 仅仅是在工作区删除file.txt
+// 工作区误删可直接 $ git checkout -- file.txt
 $ git rm file.txt // 在暂存区删除file.txt, 之后可直接commit
 $ git commit -m "remove file.txt"
