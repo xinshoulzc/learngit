@@ -37,12 +37,15 @@ $ git push -u origin master
 $ git clone git@github.com:xinshoulzc/test 
 
 $ git checkout -b dev // create and switch
-$ git branch dev // create this branch
+$ git branch dev // create a branch named 'dev'
+$ git checkout dev // switch to this branch 
 $ git branch // display all branch
 $ git merge dev
 $ git branch -d dev  //delete
 
-$ git stash
+$ git stash // stored the situations swiftly
+$ git stash list // display all stored situation
+ 
 
 $ git stash apply //recover the situation in stash but not deleted
 $ git stash drop //delete the stash
