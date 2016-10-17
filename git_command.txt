@@ -45,11 +45,22 @@ $ git branch -d dev  //delete
 
 $ git stash // stored the situations swiftly
 $ git stash list // display all stored situation
- 
-
 $ git stash apply //recover the situation in stash but not deleted
 $ git stash drop //delete the stash
- 
+
+$ git branch -D dev//delete this branch voilently
+
+$ git push origin master
+$ git pull
+
+$ git tag v1.0 //give the current branch a tag
+$ git tag //display all tags
+$ git tag -d v1.0
+$ git push origin v1.1 //git push origin <tagname>
+$ git push origin --tags //push all tags locally
+
+$ git tag -d v0.9 //delete a tag locally
+$ git push origin :refs/tags/v1.0 //delete a tag in github(first you should delete tag locally)
 
 
 
