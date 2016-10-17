@@ -44,6 +44,8 @@ $ git branch -d dev  //delete
 
 $ git stash
 
+$ git stash apply //recover the situation in stash but not deleted
+$ git stash drop //delete the stash
  
 
 
